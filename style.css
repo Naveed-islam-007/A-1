@@ -37,7 +37,7 @@ background:  rgba(70, 145, 101, 1);
 }
 
 #banner{
-    border: 2px solid red;
+    border: 1px solid black;
     width: 100%;
     background-image: url("assets/hero-bg.png");
     background-size: cover; 
