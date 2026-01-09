@@ -20,6 +20,11 @@ nav{
     list-style-type: none;
 }
 
+.nv-lst a{
+    text-decoration: none;
+    color: black;
+}
+
 .nv-btn{
 width: 164px;
 height: 44px;
@@ -30,3 +35,153 @@ border-radius: 4px;
 background:  rgba(70, 145, 101, 1);
 
 }
+
+#banner{
+    border: 2px solid red;
+    width: 100%;
+    background-image: url("assets/hero-bg.png");
+    background-size: cover; 
+    height: 600px;
+    
+}
+
+#banner .banner-container{
+    width: 85%;
+    
+  text-align: center;
+  margin: 200px auto;
+    
+}
+
+.banner-logo{
+    background-color: white;
+    border-radius: 20px;
+    margin: 16px 750px;
+}
+
+.banner-container h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+.hdr{
+   color:  rgba(48, 184, 104, 1);
+}
+
+.para{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-heading p{
+    margin: 16px auto;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn1{
+    padding: 16.5px 16px;
+    background-color: #30B868;
+}
+.btn2{
+    padding: 16.5px 16px;
+}
+#sec{
+    width: 100%;
+}
+
+.sec-hdr{
+    width: 80%;
+    margin: 20px 120px;
+    text-align: center;
+}
+.sec-hdr h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.sec-hdr p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-info{
+    padding: 70px 24px;
+     border: 1px solid grey;
+     border-radius: 20px
+     ;
+}
+
+.card-info img{
+    background-color: red;
+    padding: 14px;
+    border-radius: 50px;
+   
+}
+.sec-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-info h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-info p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sec-info{
+    margin: 120px;
+    display: flex;
+    gap: 150px;
+}
+.image-info h2{
+    color:  rgba(0, 25, 49, 1);
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+.image-info h5{
+color:  rgba(70, 145, 101, 1);
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+
+}
+.image-info p{
+color: rgba(98, 115, 130, 1);
+font-size: 16px;
+font-weight: 400;
+margin-top: 16px;
+}
+.info-lst p{
+color: rgba(0, 25, 49, 1);
+font-size: 16px;
+font-weight: 500;
+
+}
+
+#sec-foot .sec-footcontainer{
+    
+    height: 200px;
+    margin: 120px;
+    border: 1px solid black;
+    padding: 200px 500px;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+}
+#sec-foot .sec-footcontainer h2{
+color:  rgba(0, 25, 49, 1);
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+#sec-foot .sec-footcontainer p{
+ color:  rgba(98, 115, 130, 1);
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+ 
